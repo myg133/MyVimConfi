@@ -194,5 +194,8 @@ let Tlist_WinHeight=10
 let Tlist_WinWidth=18
 let Tlist_Use_Horiz_Window=0
 map <silent> <F8> :TlistToggle<CR>
-
-
+"miniBufferExplorer setting
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1 
