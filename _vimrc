@@ -138,7 +138,7 @@ let Tlist_Compart_Format = 1
 " 如果只有一个buffer，kill窗口也kill掉buffer
 let Tlist_Exist_OnlyWindow = 1
 " 不要关闭其他文件的tags
-let Tlist_File_Fold_Auto_Close = 0
+let Tlist_File_Fold_Auto_Close = 1
 " 不要显示折叠树
 let Tlist_Enable_Fold_Column = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -162,7 +162,7 @@ filetype plugin on
 let NERDChristmasTree=1
 let NERDTreeAutoCenter=1
 let NERDTreeBookmarksFile=$VIM.'\vimfiles\data\NerdBookmarks'
-let NERDTreeMouseMode=2
+let NERDTreeMouseMode=1
 let NERDTreeShowBookmarks=1
 let NERDTreeShowFiles=1
 let NERDTreeShowHidden=0
@@ -170,7 +170,7 @@ let NERDTreeShowLineNumbers=0
 let NERDTreeWinPos='left'
 let NERDTreeWinSize=31
 let NERDTreeDirArrows=0 "1显示箭头 0显示+-号
-let NERDTreeQuitOnOpen=1 "打开文件时关闭树
+let NERDTreeQuitOnOpen=0 "打开文件时关闭树
 inoremap <silent><F7> :NERDTreeToggle<CR>
 nnoremap <silent><F7> :NERDTreeToggle<CR>
 imap <silent><F7> <ESC>:NERDTreeToggle<CR> <C-w><C-w>
@@ -185,7 +185,7 @@ let Tlist_Show_Menu=1
 let Tlist_Max_Submenu_Items=10
 let Tlist_Max_Tag_length=20
 let Tlist_Use_SingleClick=0
-let Tlist_Auto_Open=0
+let Tlist_Auto_Open=1
 let Tlist_Close_On_Select=0
 let Tlist_File_Fold_Auto_Close=1
 let Tlist_GainFocus_On_ToggleOpen=0
@@ -199,3 +199,4 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
+let g:miniBufExplorerMoreThanOne=0
