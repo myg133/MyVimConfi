@@ -115,13 +115,13 @@ set autoindent
 set smartindent
 " 使用C样式的缩进
 set cindent
+" 用空格代替制表符
+set expandtab
 " 制表符为2
 set tabstop=2
 " 统一缩进为2
 set softtabstop=2
 set shiftwidth=2
-" 用空格代替制表符
-set expandtab
 " 不要换行
 set nowrap
 " 在行和段开始处使用制表符
