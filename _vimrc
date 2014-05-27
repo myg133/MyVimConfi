@@ -2,6 +2,23 @@
 " 一般设定
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 设定默认解码
+"""""""""""""""""""""""""""""
+"解决windows下的中文乱码问题
+"""""""""""""""""""""""""""""
+set encoding=utf-8
+"set termencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese,latin-1
+if has("win32")
+set fileencoding=chinese
+else
+set fileencoding=utf-8
+endif
+"解决中文菜单乱码
+set langmenu=zh_CN.utf-8
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+"解决console输出乱码
+language messages zh_cn.utf-8
 set fenc=utf-8
 set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 " 不要使用vi的键盘模式，而是vim自己的
