@@ -217,3 +217,7 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
 let g:miniBufExplorerMoreThanOne=0
+"cscope key maps
+source $VIM/vimfiles/plugin/cscope_maps.vim
+"Python debug
+map <silent><F5> :!python -mpdb %<CR>
