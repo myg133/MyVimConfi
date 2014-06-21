@@ -6,7 +6,7 @@
 "解决windows下的中文乱码问题
 """""""""""""""""""""""""""""
 set encoding=utf-8
-"set termencoding=utf-8
+set termencoding=utf-8
 set fileencodings=ucs-bom,utf-8,chinese,latin-1
 if has("win32")
 set fileencoding=chinese
@@ -220,4 +220,6 @@ let g:miniBufExplorerMoreThanOne=0
 "cscope key maps
 source $VIM/vimfiles/plugin/cscope_maps.vim
 "Python debug
-map <silent><F5> :!python -mpdb %<CR>
+map <silent><F5> :!python -mpdb % <CR>
+map <C-F5> :!python % <CR>
+  
