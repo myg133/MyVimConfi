@@ -223,3 +223,13 @@ let g:miniBufExplorerMoreThanOne=0
 map <silent><F5> :!python -mpdb % <CR>
 map <C-F5> :!python % <CR>
 "source $VIM/vimfiles/plugin/doctitle.vim  
+"AutoCompleteDot
+set completeopt=menu,menuone  
+let OmniCpp_MayCompleteDot=1    "打开  . 操作符
+let OmniCpp_MayCompleteArrow=1  "打开 -> 操作符
+let OmniCpp_MayCompleteScope=1  "打开 :: 操作符
+let OmniCpp_NamespaceSearch=1   "打开命名空间
+let OmniCpp_GlobalScopeSearch=1  
+let OmniCpp_DefaultNamespace=["std"]  
+let OmniCpp_ShowPrototypeInAbbr=1  "打开显示函数原型
+let OmniCpp_SelectFirstItem = 2 "自动弹出时自动跳至第一个
