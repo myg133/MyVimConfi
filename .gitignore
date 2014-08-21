@@ -1,3 +1,4 @@
 vim74
 vim73
 vimfiles/data/*
+*.cache

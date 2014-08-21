@@ -233,3 +233,10 @@ let OmniCpp_GlobalScopeSearch=1
 let OmniCpp_DefaultNamespace=["std"]  
 let OmniCpp_ShowPrototypeInAbbr=1  "打开显示函数原型
 let OmniCpp_SelectFirstItem = 2 "自动弹出时自动跳至第一个
+" powerline
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+set encoding=utf-8
+set laststatus=2
+set t_Co=256   
+let g:Powerline_symbols= "fancy"
