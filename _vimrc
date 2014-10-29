@@ -140,7 +140,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 " 不要换行
-set nowrap
+set wrap
 " 在行和段开始处使用制表符
 set smarttab
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
